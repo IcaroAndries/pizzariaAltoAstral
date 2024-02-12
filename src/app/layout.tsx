@@ -3,7 +3,11 @@ import Provider from "~/modules/providers/chakraProvider";
 import React from "react";
 import Navbard from "~/modules/components/Navbar";
 
-const RootLayout: React.FC = function ({ children }: any) {
+interface Props {
+  children: React.ReactNode;
+}
+
+const RootLayout: React.FC<Props> = function ({ children }) {
   return (
     <html lang="en">
       <head>
@@ -12,7 +16,7 @@ const RootLayout: React.FC = function ({ children }: any) {
 
       <body>
         <Provider>
-          <Stack minH="100vh" minW="100vw" direction="column" spacing="0px">
+          <Stack minH="100vh" maxW="100vw" direction="column" spacing="0px">
             <Navbard />
             {children}
           </Stack>

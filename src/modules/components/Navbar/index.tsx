@@ -1,7 +1,7 @@
-import { HStack, Image, Text } from '@chakra-ui/react';
-import React from 'react';
+import { HStack, Image, Text } from "@chakra-ui/react";
+import React from "react";
 
-import logo from '/public/logo.jpg';
+import logo from "/public/logo.jpg";
 
 const Navbard: React.FC = function ({}) {
   return (
@@ -16,8 +16,8 @@ const Navbard: React.FC = function ({}) {
       <Image
         src={logo.src}
         alt="logo de pizzaria"
-        w={'4em'}
-        borderRadius={'50px'}
+        w={"4em"}
+        borderRadius={"50px"}
       />
 
       <HStack
