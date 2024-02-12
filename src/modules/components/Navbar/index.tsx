@@ -6,11 +6,7 @@ import {
 
 import React from 'react';
 
-import image from 'images/logo.png';
-
 const Navbard: React.FC = function ({ }) {
-
-  console.log(image)
 
   return (
     <HStack
