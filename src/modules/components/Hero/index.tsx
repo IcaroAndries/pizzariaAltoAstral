@@ -2,7 +2,7 @@ import { Box, HStack, Image, Stack, Text } from "@chakra-ui/react";
 import dayColors from "~/modules/theme/mainColors/dayColor";
 import React from "react";
 
-import pizzaImage from "../../../public/PizzaRedonda.jpg";
+import pizzaImage from "/public/PizzaRedonda.jpg";
 
 const Hero: React.FC = function () {
   return (
