@@ -20,13 +20,13 @@ const Hero: React.FC = function () {
         <Stack w="100%" spacing="10px">
           <Text
             fontSize={"50px"}
-            color={"black"}
+            color={"#2f2f2f"}
             lineHeight={"55px"}
             fontWeight={"bold"}
           >
             The Best Pizza in The Western
           </Text>
-          <Text fontSize={"24px"} color={"black"}>
+          <Text fontSize={"18px"} color={"#505050"}>
             Indulge in the epitome of pizza perfection with our signature
             creation, The Western Wonder. Crafted to tantalize taste buds and
             evoke culinary ecstasy, this masterpiece starts with a hand-tossed,
