@@ -1,7 +1,7 @@
-import dayColors from "./mainColors/dayColor";
+import dayColors from './mainColors/dayColor';
 
 const mainTheme = {
-  colors: dayColors
-}
+  colors: dayColors,
+};
 
-export default mainTheme
+export default mainTheme;
