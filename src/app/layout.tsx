@@ -1,8 +1,8 @@
-import { Stack } from "@chakra-ui/react";
-import Provider from "~/modules/providers/chakraProvider";
-import React from "react";
+import { Stack } from '@chakra-ui/react';
+import Provider from '~/modules/providers/chakraProvider';
+import React from 'react';
 
-const RootLayout: React.FC = function ({ children }) {
+const RootLayout: React.FC = function ({ children }: any) {
   return (
     <html lang="en">
       <head>
@@ -11,13 +11,13 @@ const RootLayout: React.FC = function ({ children }) {
 
       <body>
         <Provider>
-          <Stack minH="100vh" minW={"100vw"} direction="column" spacing={0}>
+          <Stack minH="100vh" minW={'100vw'} direction="column" spacing={0}>
             {children}
           </Stack>
         </Provider>
       </body>
     </html>
-  )
-}
+  );
+};
 
-export default RootLayout
+export default RootLayout;
