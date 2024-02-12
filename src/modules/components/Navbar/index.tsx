@@ -6,7 +6,12 @@ import {
 
 import React from 'react';
 
+import image from 'images/logo.png';
+
 const Navbard: React.FC = function ({ }) {
+
+  console.log(image)
+
   return (
     <HStack
       h="6em"
@@ -16,12 +21,16 @@ const Navbard: React.FC = function ({ }) {
       alignItems="center"
       bgColor="dayRed"
     >
-      <Image src={'public/logo.png'} alt='logo de pizzaria' />
+      <Image src={'images/logo.png'} alt='logo de pizzaria' />
 
-      <HStack>
-        <Text>
-          teste
-        </Text>
+      <HStack
+        fontSize="1.5em"
+        fontWeight='600'
+        textColor="#FFFFFF"
+        spacing='3em'
+      >
+        <Text>Home</Text>
+        <Text>Order your pizza!</Text>
       </HStack>
     </HStack>
   )
