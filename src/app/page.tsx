@@ -1,10 +1,13 @@
+import { Stack } from "@chakra-ui/react";
 import React from "react";
 
-const Home:React.FC = function ({}) {
+import Navbar from "modules/components/Navbar";
+
+const Home: React.FC = function ({ }) {
   return (
-    <div>
-    <h1>Happy Dogs</h1>
-    </div>
+    <Stack>
+      <Navbar />
+    </Stack>
   )
 }
 
