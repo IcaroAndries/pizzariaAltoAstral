@@ -7,8 +7,10 @@ const Hero: React.FC = function ({ }) {
     <HStack width="100%" justifyContent={"center"} height="35em" px={20}>
       <Image src={'public/logo.png'} alt='logo de pizzaria' />
       <Stack>
-        <Text bgColor={dayColors.dayRed}>Titulo</Text>
-        <Text bgColor={dayColors.darkRed}>Descrição</Text>
+        <Text fontSize={"128xl"} color={"blue"}>Titulo</Text>
+        <Text fontSize={"64xl"} color={"blue"} >Descrição</Text>
+
+
 
       </Stack>
     </HStack>
