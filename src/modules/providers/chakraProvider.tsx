@@ -2,7 +2,7 @@
 
 import { CacheProvider } from '@chakra-ui/next-js'
 import { ChakraProvider } from '@chakra-ui/react'
-import mainTheme from 'modules/theme'
+import mainTheme from '~/modules/theme'
 import React from 'react'
 
 

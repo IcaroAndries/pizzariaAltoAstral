@@ -1,5 +1,5 @@
 import { Stack } from "@chakra-ui/react";
-import Provider from "modules/providers/chakraProvider";
+import Provider from "~/modules/providers/chakraProvider";
 import React from "react";
 
 const RootLayout: React.FC = function ({ children }) {
