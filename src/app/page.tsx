@@ -1,14 +1,12 @@
 import { Stack } from "@chakra-ui/react";
 import React from "react";
 
-import Navbar from "~/modules/components/Navbar";
 import Hero from "~/modules/components/Hero";
 import Footer from "~/modules/components/Footer";
 
 const Home: React.FC = function ({}) {
   return (
-    <Stack spacing="0px">
-      <Navbar />
+    <Stack spacing="0px" h="100%">
       <Hero />
       <Footer />
     </Stack>

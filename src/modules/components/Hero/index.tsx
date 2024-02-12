@@ -17,7 +17,7 @@ const Hero: React.FC = function () {
           <Image src={pizzaImage.src} w="320px" alt="logo de pizzaria" />
         </Box>
 
-        <Stack w="100%" spacing="10px">
+        <Stack w="100%" h="100%" spacing="10px">
           <Text
             fontSize={"50px"}
             color={"black"}
