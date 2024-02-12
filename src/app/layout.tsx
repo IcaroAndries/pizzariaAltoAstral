@@ -12,7 +12,7 @@ const RootLayout: React.FC = function ({ children }: any) {
 
       <body>
         <Provider>
-          <Stack minH="100vh" minW="100vw" direction="column" spacing="0px">
+          <Stack minH="100vh" maxW="100vw" direction="column" spacing="0px">
             <Navbard />
             {children}
           </Stack>
