@@ -1,4 +1,5 @@
 import { Box, HStack, Image, Stack, Text } from "@chakra-ui/react";
+import dayColors from "~/modules/theme/mainColors/dayColor";
 import React from "react";
 
 import pizzaImage from '/public/PizzaRedonda.jpg';
@@ -26,8 +27,9 @@ const Hero: React.FC = function ({ }) {
       </Box>
 
       <Stack>
-        <Text>Titulo</Text>
-        <Text>Descrição</Text>
+        <Text bgColor={dayColors.dayRed}>Titulo</Text>
+        <Text bgColor={dayColors.darkRed}>Descrição</Text>
+
       </Stack>
     </HStack>
   )
