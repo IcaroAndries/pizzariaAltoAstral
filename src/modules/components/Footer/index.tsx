@@ -1,6 +1,6 @@
-import { Box, Text, HStack, Stack } from '@chakra-ui/react';
-import Link from 'next/link';
-import React from 'react';
+import { Box, Text, HStack, Stack } from "@chakra-ui/react";
+import Link from "next/link";
+import React from "react";
 
 const Footer: React.FC = function ({}) {
   return (
@@ -14,9 +14,9 @@ const Footer: React.FC = function ({}) {
       <Stack>
         <Box p={4} mt="auto" bg="gray.200" textAlign="center">
           <HStack>
-            <Link href={''}>Comunidade </Link>
-            <Link href={''}>Suporte </Link>
-            <Link href={''}>Produtos </Link>
+            <Link href={""}>Comunidade </Link>
+            <Link href={""}>Suporte </Link>
+            <Link href={""}>Produtos </Link>
           </HStack>
         </Box>
         <Box p={4} mt="auto" bg="gray.200" textAlign="center">

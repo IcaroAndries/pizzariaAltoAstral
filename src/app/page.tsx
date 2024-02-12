@@ -1,13 +1,13 @@
-import { Stack } from '@chakra-ui/react';
-import React from 'react';
+import { Stack } from "@chakra-ui/react";
+import React from "react";
 
-import Navbar from '~/modules/components/Navbar';
-import Hero from '~/modules/components/Hero';
-import Footer from '~/modules/components/Footer';
+import Navbar from "~/modules/components/Navbar";
+import Hero from "~/modules/components/Hero";
+import Footer from "~/modules/components/Footer";
 
-const Home: React.FC = function ({ }) {
+const Home: React.FC = function ({}) {
   return (
-    <Stack>
+    <Stack spacing="0px">
       <Navbar />
       <Hero />
       <Footer />
