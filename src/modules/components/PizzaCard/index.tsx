@@ -6,8 +6,9 @@ import PizzaAbacaxi from "/public/PizzaAbacaxi.jpg";
 interface Props {
   description: string;
   image: string;
+  name: string;
 }
-const PizzaCard: React.FC<Props> = function ({ description, image }) {
+const PizzaCard: React.FC<Props> = function ({ description, image, name }) {
   return (
     <Box
       w="10em"
@@ -16,15 +17,11 @@ const PizzaCard: React.FC<Props> = function ({ description, image }) {
       borderRadius="10%"
       overflow="hidden"
     >
-      <Image
-        src={image}
-        width={"10em"}
-        height="10em"
-        alt="Pizza de Pepperoni"
-      />
+      <Image src={image} width={"10em"} height="10em" alt="Pizzas" />
       <Text fontSize={"24px"} color={"black"}>
         {description}
       </Text>
+      <Text>{name}</Text>
     </Box>
   );
 };
