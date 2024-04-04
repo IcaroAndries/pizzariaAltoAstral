@@ -10,13 +10,48 @@ const Footer: React.FC = function ({}) {
       justifyContent="center"
       alignItems="center"
       bgColor="dayRed"
+      textColor={'#FFFF'}
+      marginTop="auto"
     >
       <Stack>
-        <Box p={4} mt="auto" bg="gray.200" textAlign="center">
+        <Box p={4} mt="auto" textAlign="center">
           <HStack>
-            <Link href={''}>Comunidade </Link>
-            <Link href={''}>Suporte </Link>
-            <Link href={''}>Produtos </Link>
+            <Stack>
+              <Link href={''}>
+                <Text _hover={{ opacity: '50%' }} transition={'0.25s'}>
+                  Comunidade
+                </Text>{' '}
+              </Link>
+              <Link href={''}>
+                <Text _hover={{ opacity: '50%' }} transition={'0.25s'}>
+                  Comunidade
+                </Text>{' '}
+              </Link>
+            </Stack>
+            <Stack>
+              <Link href={''}>
+                <Text _hover={{ opacity: '50%' }} transition={'0.25s'}>
+                  Comunidade
+                </Text>{' '}
+              </Link>
+              <Link href={''}>
+                <Text _hover={{ opacity: '50%' }} transition={'0.25s'}>
+                  Comunidade
+                </Text>{' '}
+              </Link>
+            </Stack>
+            <Stack>
+              <Link href={''}>
+                <Text _hover={{ opacity: '50%' }} transition={'0.25s'}>
+                  Comunidade
+                </Text>{' '}
+              </Link>
+              <Link href={''}>
+                <Text _hover={{ opacity: '50%' }} transition={'0.25s'}>
+                  Comunidade
+                </Text>{' '}
+              </Link>
+            </Stack>
           </HStack>
         </Box>
         <Box p={4} mt="auto" bg="gray.200" textAlign="center">
